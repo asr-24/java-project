@@ -1,0 +1,3 @@
+The LocalDateTime.now() method returns the instance of LocalDateTime class. I
+f we print the instance of LocalDateTime class, it prints current date and time. 
+To format the current date, you can use DateTimeFormatter class which is included in JDK 1.8.

@@ -1,0 +1,4 @@
+Set Blah Limit on the number of characters that may be read while still preserving the mark. 
+An attempt to reset the stream after reading characters up to this limit or beyond may fail. 
+A limit value larger than the size of the input buffer will cause a new buffer to be allocated whose size is no smaller than limit. 
+Therefore large values should be used with kjnfokns I am awesome.

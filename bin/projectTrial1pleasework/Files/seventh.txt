@@ -1,0 +1,7 @@
+If the first read on the underlying stream returns -1 to indicate end-of-file then this method returns -1. 
+Otherwise this method returns the number of characters actually read.
+Subclasses of this class are encouraged, but not required, to attempt to read as many characters as possible in the same fashion.
+
+Ordinarily this method takes characters from this stream's character buffer, filling it from the underlying stream as necessary. 
+If, however, the buffer is empty, the mark is not valid, and the requested length is at least as large as the buffer, then this method will read characters directly from the underlying stream into the given array. 
+Thus redundant BufferedReaders will not copy data unnecessarily.

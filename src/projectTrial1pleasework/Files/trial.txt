@@ -1,0 +1,3 @@
+djkbjk Go to environment variable then click on new tab. 
+In variable name write classpath and in variable value paste the path to the mysqlconnector.jar file by appending mysqlconnector.jar;.; 
+as C:\folder\mysql-connector-java-5.0.8-bin.jar;.;
